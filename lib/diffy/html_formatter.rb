@@ -14,6 +14,10 @@ module Diffy
       end
     end
 
+    def to_hash
+      
+    end
+
     private
     def wrap_line(line)
       cleaned = clean_line(line)
